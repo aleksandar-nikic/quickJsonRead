@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: rgb(79, 194, 175);
+}
+header {
+  height: 3rem;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header button {
+  width: 30%;
+  height: 80%;
+  border-radius: 10px;
+}
+main {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  background: #999;
+  border-radius: 20px;
+}
+section {
+  background: #123;
+  color: #eee;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+section h4,
+p {
+  margin: 0.5rem 0 0.5rem 0;
+}
+form {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
