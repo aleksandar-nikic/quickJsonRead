@@ -1,6 +1,7 @@
 'use strict';
 
-$('p').hide();
+
+//Reading Data from JSON and pushing it to <main>
 
 $(document).ready(function () {
   $('#getJson').click(function () {
@@ -14,6 +15,8 @@ $(document).ready(function () {
     });
   });
 });
+
+//Adding a "Post" from a simple form
 
 $('#addPost').click(function () {
   const user = document.querySelector('.user').value;
